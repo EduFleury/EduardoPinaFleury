@@ -112,7 +112,7 @@ export default function Home() {
               </button>
             ))}
           </div>
-          <a href="../../public/Media/Curriculo-EduardoPina.pdf" download>
+          <a href="/Media/Curriculo-EduardoPina.pdf" download>
             <Button variant="outline" size="sm" className="border-accent/40 text-accent hover:bg-accent/10 rounded-full text-xs gap-1.5">
               <Download size={12} /> CV
             </Button>
@@ -189,7 +189,7 @@ export default function Home() {
                 <Linkedin className="mr-2" size={16} /> LinkedIn
               </Button>
             </a>
-            <a href="../../public/Media/Curriculo-EduardoPina.pdf" download>
+            <a href="/Media/Curriculo-EduardoPina.pdf" download>
               <Button variant="outline" className="border-accent/30 text-accent hover:bg-accent/10 px-7 py-5 text-sm rounded-full transition-all">
                 <Download className="mr-2" size={16} /> CV
               </Button>
